@@ -1,0 +1,30 @@
+local library = loadstring()game:HttpGet()'https://github.com/EtoScripts/Speed/new/main%27)))()
+local mainwindow = library:CreateWindow("Gas gas gas")
+local mainFolder = mainwindow:CreateFolder("Vroom")
+
+local GuiService = game:GetService("GuiService")
+local lplr = game:GetService("Players").LocalPlayer
+mainFolder:Slider("WalkSpeed", {
+    min = 16,
+    max= 250,
+    precise= false;
+},function(v)
+    while _G.Walk == true do
+       lplr.Character.Humanoid.WalkSpeed = v
+       wait()
+    end
+end)
+
+_G.Walk = true
+_G.Jump = true
+
+mainFolder:Slider("JumpPower", {
+    min = 140,
+    max= 250,
+    precise= false;
+},function(v)
+    while _G.Jump == true do
+       lplr.Character.Humanoid.JumpPower = v
+       wait()
+    end
+end) 
