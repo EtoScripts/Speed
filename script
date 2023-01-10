@@ -1,4 +1,4 @@
-local library = loadstring()game:HttpGet()'https://github.com/EtoScripts/Speed/new/main%27)))()
+local library = loadstring()game:HttpGet()'https://github.com/EtoScripts/Speed/new/main%27)))()'
 local mainwindow = library:CreateWindow("Gas gas gas")
 local mainFolder = mainwindow:CreateFolder("Vroom")
 
